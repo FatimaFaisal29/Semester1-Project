@@ -18,7 +18,7 @@ void setPassword(char arr1[100][30], char arr2[100][30]) {
     if (arr1[x][y] == arr2[x][y] && y >= 8) {
         return;
     } else {
-        return setPassword( arr1, arr2);
+        return setPassword(arr1, arr2);
     }
 }
 
@@ -32,12 +32,12 @@ int signupPage() {
     cin.ignore();
     cout << "set password!" << "\n";
     cout << "**make sure your password should be of 8 characters**" << "\n";
-    setPassword(arr1,arr2);
+    setPassword(arr1, arr2);
     cout << "you are successfully signed in!";
     return 0;
 }
 
- //  <--- ** SignUp Functionality here.... ** -->
+//  <--- ** SignUp Functionality here.... ** -->
 
 
 
