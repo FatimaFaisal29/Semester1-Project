@@ -6,6 +6,8 @@ using namespace std;
 int loginPage() {
 
 }
+
+
 void setPassword(char arr1[100][30], char arr2[100][30]) {
     char x, y;
     cout << "enter password: ";
